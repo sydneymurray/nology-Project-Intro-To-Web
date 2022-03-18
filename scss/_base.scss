@@ -1,0 +1,16 @@
+
+$font-body: sans-serif;
+
+$color-primary: #28527a;
+$color-secondary: #f0a500;
+$background-color-main: #333333;
+$background-color-footer: #fafafa;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-black;
+}
+
