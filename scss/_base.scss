@@ -1,16 +1,24 @@
 
 $font-body: sans-serif;
 
-$color-primary: #28527a;
-$color-secondary: #f0a500;
-$background-color-main: #333333;
-$background-color-footer: #fafafa;
+$color-primary: rgb(47, 68, 124);
+$color-secondary: #70c3f3;
+$background-color-primary: #fffbe8;
+$background-color-footer: #faf3cc;
+$document-width: 350px;
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: $font-body;
-    color: $color-black;
 }
+
+.bold{
+    font-weight: bold;
+}
+.light-text{
+    font-weight: 100;
+}
+
 

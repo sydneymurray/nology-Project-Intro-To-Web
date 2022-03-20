@@ -1,0 +1,22 @@
+.body {
+  width: 300px;
+  margin: 0 auto;
+  background-color: red;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  background-color: red;
+  width: 750px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

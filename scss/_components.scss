@@ -1,0 +1,26 @@
+.parenting{
+    padding: 2ch;
+    text-align: center;
+    &__h2{
+        color: $color-secondary;
+    }
+    &__image{
+        display: block;
+        margin: 1ch auto;
+        width: 200px;
+    }
+    &__h3{
+        margin: 1ch;
+        color: $color-secondary;
+    }
+}
+.find{
+    padding: 2ch;
+    text-align: center;
+    &__artical{
+        display: flex;
+        flex-direction: columns;
+        text-align: left;
+        align-items: center
+    }
+}
