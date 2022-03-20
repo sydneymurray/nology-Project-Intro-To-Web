@@ -6,7 +6,7 @@
     }
     &__image{
         display: block;
-        margin: 1ch auto;
+        margin: 2ch auto;
         width: 200px;
     }
     &__h3{
@@ -23,4 +23,12 @@
         text-align: left;
         align-items: center
     }
+}
+
+.section-button{
+    color: white;
+    border-radius: 3px;
+    padding: 1ch 4ch;
+    background-color: $color-primary;
+    margin-top: 2ch;
 }

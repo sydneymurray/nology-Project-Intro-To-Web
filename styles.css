@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +24,7 @@
   justify-content: center;
   align-items: center;
   align-self: center;
-  background-color: #fffbe8;
+  background-color: #fdfcf4;
   width: 350px;
   height: 50px;
   margin: 0 auto;
@@ -34,13 +35,15 @@
 }
 .header__h1 {
   color: #2f447c;
+  font-family: "Staatliches", "Courier New", Courier, monospace;
+  font-size: 2.5em;
 }
 .header__login-button {
-  margin-left: 4ch;
-  border: 1px solid #2f447c;
+  margin-left: 8ch;
+  border: 2px solid #2f447c;
   border-radius: 3px;
-  padding: 1ch 2ch;
-  background-color: #fffbe8;
+  padding: 1ch 3ch;
+  background-color: #fdfcf4;
 }
 
 .main {
@@ -50,13 +53,13 @@
   align-items: center;
   width: 350px;
   color: #2f447c;
-  background-color: #fffbe8;
+  background-color: #fdfcf4;
   margin: 0 auto;
 }
 
 .footer {
   text-align: center;
-  background-color: #faf3cc;
+  background-color: #faf6df;
   width: 350px;
   margin: 0 auto;
   padding: 1ch;
@@ -75,7 +78,7 @@
 }
 .parenting__image {
   display: block;
-  margin: 1ch auto;
+  margin: 2ch auto;
   width: 200px;
 }
 .parenting__h3 {
@@ -92,4 +95,12 @@
   flex-direction: columns;
   text-align: left;
   align-items: center;
+}
+
+.section-button {
+  color: white;
+  border-radius: 3px;
+  padding: 1ch 4ch;
+  background-color: #2f447c;
+  margin-top: 2ch;
 }
